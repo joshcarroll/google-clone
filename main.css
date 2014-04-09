@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*my code starts here*/
+
+/*header*/
+
+#header {
+	display: block;
+	position: absolute;
+	right: 2%;
+	height: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#topnav_left {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+#topnav_right {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+#topnav_right a {
+	margin: 5px 0px 5px 5px;
+	
+}
+
+#topnav_left a {
+	margin: 5px;
+
+}
+
+.header_link {
+	color: #404040;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+
+}
+
+#sign_in {
+	border: 1px solid #166cff;
+	background: #4683ea;
+	border-radius: 2px;
+	line-height: 30px;
+	color: #ffffff;
+	padding: 8px 12px;
+	text-decoration: none;
+	text-align: center;
+	outline: none;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+
+a.header_link:hover {
+	text-decoration: underline;
+}
+
+
+#apps {
+	opacity: 0.8;  
+	text-decoration: none;	
+}
+
+#apps img {
+	margin-top: 5px;
+	margin-bottom: -7px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+#apps:hover  {
+	opacity: 1.0;
+	text-decoration: none;
+
+}
+
+
+/*main*/
+
+#logo img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 140px;
+
+}
+
+#searchbox input {
+	width: 600px;
+	height: 26px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background: url('/Users/joshuacarroll/thinkful-projects/google-clone/images/microphone.png') right no-repeat;
+	background-size: 25px 25px;
+	border: 1px solid #6b6b6b;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+
+}
+
+#searchbox input:focus {
+	border: 1px solid orange;
+	outline: none;
+}
+
+
+#searchbuttons {
+	position: relative;
+	top: 15px;
+	text-align: center;
+	}
+
+.search_button {
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 1px solid #dcdcdc;
+	color: #444;
+	border-radius: 2px;
+	margin: 8px;
+	height: 27px;
+	background: -webkit-linear-gradient(top, #f5f5f5, #e4e4e4);
+	font: bold 11px Arial, sans-serif;
+
+}
+
+.search_button:hover {
+	border-color: #c6c5c6;
+	box-shadow: 0 1px 0;
+	background: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+	font-weight: bold;
+
+}
+
+
+#google_search {
+	display: inline-block; 
+	left: 40%;
+
+}
+
+#feel_lucky {
+	display: inline-block;
+	right: 40%;
+} 
+
+	
+/*footer*/
+
+#footer {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	margin-top: 90px;
+	margin-bottom: 0px
+}
+
+#footer a {
+	text-decoration: none;
+	color: #666;
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#foot_left {
+	display: inline-block;
+	position: relative;
+	left: 2%;
+
+}
+
+#foot_left a {
+	padding-right: 27px;
+}
+
+#foot_right {
+	display: inline-block;
+	position: absolute;
+	right: 2%; 
+	
+}
+
+#foot_right a {
+	padding-left: 27px;
+}
+
+
+
+
+
+
+
